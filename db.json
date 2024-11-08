@@ -6,7 +6,7 @@
         "type": "Electric",
         "popularAttackMove": "Thunderbolt",
         "popularDefendingMove": "Quick Attack",
-        "imageUrl": "https://www.denofgeek.com/wp-content/uploads/2021/04/Pikachu.png?fit=1920%2C1080"
+        "imageUrl": "./assets/pokemon/pikachu.jpg"
       },
       {
         "id": 2,
@@ -14,7 +14,7 @@
         "type": "Fire/Flying",
         "popularAttackMove": "Flamethrower",
         "popularDefendingMove": "Fly",
-        "imageUrl": "https://pokeflip.com/cdn/shop/articles/The_Phenomenal_Firepower_of_Charizard_-_The_Ultimate_Pokemon_600x600_crop_center.jpg?v=1715069361"
+        "imageUrl": "./assets/pokemon/charizard.jpg"
       },
       {
         "id": 3,
@@ -22,7 +22,7 @@
         "type": "Grass/Poison",
         "popularAttackMove": "Vine Whip",
         "popularDefendingMove": "Leech Seed",
-        "imageUrl": "https://diydiamondpaintings.com/cdn/shop/files/5f28faa9e42aa627e0015d625b25cb8e.jpg?v=1693298041"
+        "imageUrl": "./assets/pokemon/bulbasaur.jpg"
       },
       {
         "id": 4,
@@ -30,7 +30,7 @@
         "type": "Water",
         "popularAttackMove": "Water Gun",
         "popularDefendingMove": "Withdraw",
-        "imageUrl": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2024/09/pokemon-fan-redesigns-squirtle-and-its-evolutions.jpg"
+        "imageUrl": "./assets/pokemon/squirtle.jpg"
       },
       {
         "id": 5,
@@ -38,7 +38,7 @@
         "type": "Fairy",
         "popularAttackMove": "Double Slap",
         "popularDefendingMove": "Sing",
-        "imageUrl": "https://assetsio.gnwcdn.com/pokemon_go_jigglypuff_thumbnail.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp"
+        "imageUrl": "./assets/pokemon/jigglypuff.jpg"
       },
       {
         "id": 6,
@@ -46,7 +46,7 @@
         "type": "Normal",
         "popularAttackMove": "Scratch",
         "popularDefendingMove": "Growl",
-        "imageUrl": "https://preview.redd.it/what-other-moves-could-meowth-learn-v0-e39r8myx852c1.jpg?width=640&crop=smart&auto=webp&s=7e5b0792404b8b1b54bc403b37dc3583cac69c21"
+        "imageUrl": "./assets/pokemon/meowth.jpg"
       },
       {
         "id": 7,
@@ -54,7 +54,7 @@
         "type": "Ghost/Poison",
         "popularAttackMove": "Shadow Ball",
         "popularDefendingMove": "Hypnosis",
-        "imageUrl": "https://win.gg/_next/image/?url=https%3A%2F%2Fapi3.win.gg%2Fwp-content%2Fuploads%2F2022%2F10%2Fpokemon-go-gengar.webp&w=3840&q=75"
+        "imageUrl": "./assets/pokemon/gengar.jpg"
       },
       {
         "id": 8,
@@ -62,7 +62,7 @@
         "type": "Fighting",
         "popularAttackMove": "Dynamic Punch",
         "popularDefendingMove": "Bulk Up",
-        "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/22b2e913-3279-42c5-804e-8009da3afef0/dee82qm-30afb8b6-cd0d-4bb7-8543-23a78e13c9c1.jpg/v1/fill/w_1280,h_905,q_75,strp/self_improvement_project_week_3_pokemon_machamp_by_nadlock_dee82qm-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTA1IiwicGF0aCI6IlwvZlwvMjJiMmU5MTMtMzI3OS00MmM1LTgwNGUtODAwOWRhM2FmZWYwXC9kZWU4MnFtLTMwYWZiOGI2LWNkMGQtNGJiNy04NTQzLTIzYTc4ZTEzYzljMS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.7q25XPKWTMw5uvBMOscXLRbdTWHFi8B6ef59Jkfae9U"
+        "imageUrl": "./assets/pokemon/machamp.jpg"
       },
       {
         "id": 9,
@@ -70,7 +70,7 @@
         "type": "Normal",
         "popularAttackMove": "Quick Attack",
         "popularDefendingMove": "Sand Attack",
-        "imageUrl": "https://images.squarespace-cdn.com/content/v1/571645b440261d0e2095da20/1551387712835-7VQ55YVY8JB03IOHE9EK/eevee.jpg?format=1000w"
+        "imageUrl": "./assets/pokemon/eevee.jpg"
       },
       {
         "id": 10,
@@ -78,88 +78,7 @@
         "type": "Normal",
         "popularAttackMove": "Body Slam",
         "popularDefendingMove": "Rest",
-        "imageUrl": "https://a.storyblok.com/f/178900/960x540/4bf2c89730/cr_snorlax_hero.png/m/filters:quality(95)format(webp)"
+        "imageUrl": "./assets/pokemon/snorlax.jpg"
       },
-      {
-        "id": 11,
-        "name": "Dragonite",
-        "type": "Dragon/Flying",
-        "popularAttackMove": "Dragon Claw",
-        "popularDefendingMove": "Barrier",
-        "imageUrl": "https://static.wikia.nocookie.net/pokemon/images/7/75/Iris_Dragonite.png/revision/latest?cb=20220715224259"
-      },
-      {
-        "id": 12,
-        "name": "Jolteon",
-        "type": "Electric",
-        "popularAttackMove": "Thunder",
-        "popularDefendingMove": "Agility",
-        "imageUrl": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokedex/7/7c/800px-Volkner_Jolteon.png?width=325"
-      },
-      {
-        "id": 13,
-        "name": "Alakazam",
-        "type": "Psychic",
-        "popularAttackMove": "Psychic",
-        "popularDefendingMove": "Reflect",
-        "imageUrl": "https://static.pokemonpets.com/images/monsters-images-300-300/10065-Shiny-Mega-Alakazam.webp"
-      },
-      {
-        "id": 14,
-        "name": "Gyarados",
-        "type": "Water/Flying",
-        "popularAttackMove": "Hydro Pump",
-        "popularDefendingMove": "Dragon Dance",
-        "imageUrl": "https://assets.vg247.com/current//2017/04/pokemon_red_gyarados.jpg"
-      },
-      {
-        "id": 15,
-        "name": "Lapras",
-        "type": "Water/Ice",
-        "popularAttackMove": "Ice Beam",
-        "popularDefendingMove": "Sing",
-        "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full//131.png"
-      },
-      {
-        "id": 16,
-        "name": "Arcanine",
-        "type": "Fire",
-        "popularAttackMove": "Flame Wheel",
-        "popularDefendingMove": "Roar",
-        "imageUrl": "https://static.wikia.nocookie.net/vsbattles/images/b/bb/Growlithe.png/revision/latest/scale-to-width-down/300?cb=20190602234357"
-      },
-      {
-        "id": 17,
-        "name": "Onix",
-        "type": "Rock/Ground",
-        "popularAttackMove": "Rock Throw",
-        "popularDefendingMove": "Harden",
-        "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full//095.png"
-      },
-      {
-        "id": 18,
-        "name": "Scyther",
-        "type": "Bug/Flying",
-        "popularAttackMove": "Slash",
-        "popularDefendingMove": "Double Team",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNo-8REoquDX3Ce4VcTVZIelBt27gmzRD7yg&s"
-      },
-      {
-        "id": 19,
-        "name": "Vaporeon",
-        "type": "Water",
-        "popularAttackMove": "Surf",
-        "popularDefendingMove": "Acid Armor",
-        "imageUrl": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokedex/7/7d/800px-Virgil_Vaporeon.png"
-      },
-      {
-        "id": 20,
-        "name": "Zapdos",
-        "type": "Electric/Flying",
-        "popularAttackMove": "Thunder Shock",
-        "popularDefendingMove": "Drill Peck",
-        "imageUrl": "https://static.wikia.nocookie.net/pokemon/images/c/c4/Zapdos_PJ040.png/revision/latest?cb=20201010044830"
-      }
     ]
-  }
-  
+    }
