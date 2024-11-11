@@ -6,7 +6,7 @@
         "type": "Electric",
         "popularAttackMove": "Thunderbolt",
         "popularDefendingMove": "Quick Attack",
-        "imageUrl": "./assets/pokemon/pikachu.jpg"
+        "imageUrl": "/assets/pokemon/pikachu.jpg"
       },
       {
         "id": 2,
@@ -79,6 +79,6 @@
         "popularAttackMove": "Body Slam",
         "popularDefendingMove": "Rest",
         "imageUrl": "./assets/pokemon/snorlax.jpg"
-      },
+      }
     ]
     }

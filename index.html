@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pokémon Collection</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer type="module" src="src/index.js"></script>
 </head>
 <body>
 
@@ -12,10 +13,33 @@
     <h1>My Pokémon Collection</h1>
   </header>
 
+  <!-- container to display pokemon pics -->
   <main id="pokemon-container">
-    <!-- This is where Pokémon data will be displayed -->
+    
   </main>
 
-  <script src="script.js"></script>
+  <!-- form to add a new pokemon -->
+  <section id="add-pokemon-section">
+    <h2>Add a New Pokemon!</h2>
+    <form id="pokemon-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="type">Type:</label>
+      <input type="text" id="type" name="type" required>
+      
+      <label for="attackMove">Attack Move:</label>
+      <input type="text" id="attackMove" name="attackMove" required>
+      
+      <label for="defendMove">Defense Move:</label>
+      <input type="text" id="defendMove" name="defendMove" required>
+      
+      <label for="imageUrl">Image URL:</label>
+      <input type="url" id="imageUrl" name="imageUrl" required>
+      
+      <button type="submit">Gotta catch 'em all!</button>
+    </form>
+  </section>
+
 </body>
 </html>
