@@ -4,81 +4,37 @@
         "id": 1,
         "name": "Pikachu",
         "type": "Electric",
-        "popularAttackMove": "Thunderbolt",
-        "popularDefendingMove": "Quick Attack",
+        "ability": "Static",
         "imageUrl": "/assets/pokemon/pikachu.jpg"
       },
       {
         "id": 2,
         "name": "Charizard",
         "type": "Fire/Flying",
-        "popularAttackMove": "Flamethrower",
-        "popularDefendingMove": "Fly",
+        "ability": "Blaze",
         "imageUrl": "./assets/pokemon/charizard.jpg"
       },
       {
         "id": 3,
         "name": "Bulbasaur",
         "type": "Grass/Poison",
-        "popularAttackMove": "Vine Whip",
-        "popularDefendingMove": "Leech Seed",
+        "ability": "Overgrow",
         "imageUrl": "./assets/pokemon/bulbasaur.jpg"
       },
       {
         "id": 4,
         "name": "Squirtle",
         "type": "Water",
-        "popularAttackMove": "Water Gun",
-        "popularDefendingMove": "Withdraw",
+        "ability": "Torrent",
         "imageUrl": "./assets/pokemon/squirtle.jpg"
       },
       {
         "id": 5,
         "name": "Jigglypuff",
         "type": "Fairy",
-        "popularAttackMove": "Double Slap",
-        "popularDefendingMove": "Sing",
+        "ability": "Cute Charm",
         "imageUrl": "./assets/pokemon/jigglypuff.jpg"
-      },
-      {
-        "id": 6,
-        "name": "Meowth",
-        "type": "Normal",
-        "popularAttackMove": "Scratch",
-        "popularDefendingMove": "Growl",
-        "imageUrl": "./assets/pokemon/meowth.jpg"
-      },
-      {
-        "id": 7,
-        "name": "Gengar",
-        "type": "Ghost/Poison",
-        "popularAttackMove": "Shadow Ball",
-        "popularDefendingMove": "Hypnosis",
-        "imageUrl": "./assets/pokemon/gengar.jpg"
-      },
-      {
-        "id": 8,
-        "name": "Machamp",
-        "type": "Fighting",
-        "popularAttackMove": "Dynamic Punch",
-        "popularDefendingMove": "Bulk Up",
-        "imageUrl": "./assets/pokemon/machamp.jpg"
-      },
-      {
-        "id": 9,
-        "name": "Eevee",
-        "type": "Normal",
-        "popularAttackMove": "Quick Attack",
-        "popularDefendingMove": "Sand Attack",
-        "imageUrl": "./assets/pokemon/eevee.jpg"
-      },
-      {
-        "id": 10,
-        "name": "Snorlax",
-        "type": "Normal",
-        "popularAttackMove": "Body Slam",
-        "popularDefendingMove": "Rest",
-        "imageUrl": "./assets/pokemon/snorlax.jpg"
       }
+     
     ]
     }
