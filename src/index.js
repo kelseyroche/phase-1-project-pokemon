@@ -18,7 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
       pokemonCard.className = "pokemon-card";
       pokemonCard.addEventListener('click' , () => handleClick(pokemon));
       pokemonCard.innerHTML = `
-        <img src="${pokemon.imageUrl}" alt="${pokemon.name}" class="pokemon-image">  
+        <img src="${pokemon.imageUrl}" alt="${pokemon.name}" class="pokemon-image">
+        <h3>${pokemon.name}</h3>
+        <p>Type: ${pokemon.type}</p>
+        <p>Ability: ${pokemon.ability}</p>
       `;
       pokemonContainer.appendChild(pokemonCard);
       
@@ -28,7 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
     
 
     }
-
   
     //form code
     pokemonForm.addEventListener("submit", event => {
