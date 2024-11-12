@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     //fetch pokemon info
     function loadPokemon() {
-      fetch("http://localhost:3000/pokemon")
+      fetch("http://localhost:3500/pokemon")
         .then(response => response.json())
         .then(data => {
           data.forEach(pokemon => renderPokemon(pokemon));
