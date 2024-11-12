@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     //fetch pokemon info
     function loadPokemon() {
-      fetch("http://localhost:3000/pokemon")
+      fetch("http://localhost:3500/pokemon")
         .then(response => response.json())
         .then(data => {
           data.forEach(pokemon => renderPokemon(pokemon));
@@ -16,15 +16,19 @@ document.addEventListener("DOMContentLoaded", () => {
     function renderPokemon(pokemon) {
       const pokemonCard = document.createElement("div");
       pokemonCard.className = "pokemon-card";
-  
+      pokemonCard.addEventListener('click' , () => handleClick(pokemon));
       pokemonCard.innerHTML = `
-        <img src="${pokemon.imageUrl}" alt="${pokemon.name}" class="pokemon-image">
-        <h3>${pokemon.name}</h3>
-        <p>Type: ${pokemon.type}</p>
-        <p>Ability: ${pokemon.ability}</p>
+        <img src="${pokemon.imageUrl}" alt="${pokemon.name}" class="pokemon-image">  
       `;
       pokemonContainer.appendChild(pokemonCard);
+      
     }
+  //click event 
+  function handleClick(pokemon){
+    
+
+    }
+
   
     //form code
     pokemonForm.addEventListener("submit", event => {
