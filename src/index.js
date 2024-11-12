@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function renderPokemon(pokemon) {
       const pokemonCard = document.createElement("div");
       pokemonCard.className = "pokemon-card";
-      pokemonCard.addEventListener('click' , () => handleClick(pokemon));
+      pokemonContainer.addEventListener('click' , () => handleClick(pokemon));
       pokemonCard.innerHTML = `
         <img src="${pokemon.imageUrl}" alt="${pokemon.name}" class="pokemon-image">
         
@@ -26,13 +26,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   //click event 
   function handleClick(pokemon){
-    
-
-    }
   
-    //click event code
-    
 
+  }
+  
     //form code
     pokemonForm.addEventListener("submit", event => {
       event.preventDefault();
@@ -47,6 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
       renderPokemon(newPokemon);
       event.target.reset();
     });
+
   
     loadPokemon();
   });

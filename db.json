@@ -5,35 +5,35 @@
         "name": "Pikachu",
         "type": "Electric",
         "ability": "Static",
-        "imageUrl": "/assets/pokemon/pikachu.jpg"
+        "imageUrl": "./assets/pokemon/pikachu.png"
       },
       {
         "id": 2,
         "name": "Charizard",
         "type": "Fire/Flying",
         "ability": "Blaze",
-        "imageUrl": "./assets/pokemon/charizard.jpg"
+        "imageUrl": "./assets/pokemon/charizard.png"
       },
       {
         "id": 3,
         "name": "Bulbasaur",
         "type": "Grass/Poison",
         "ability": "Overgrow",
-        "imageUrl": "./assets/pokemon/bulbasaur.jpg"
+        "imageUrl": "./assets/pokemon/bulbasaur.png"
       },
       {
         "id": 4,
         "name": "Squirtle",
         "type": "Water",
         "ability": "Torrent",
-        "imageUrl": "./assets/pokemon/squirtle.jpg"
+        "imageUrl": "./assets/pokemon/squirtle.png"
       },
       {
         "id": 5,
         "name": "Jigglypuff",
         "type": "Fairy",
         "ability": "Cute Charm",
-        "imageUrl": "./assets/pokemon/jigglypuff.jpg"
+        "imageUrl": "./assets/pokemon/jigglypuff.png"
       }
      
     ]
