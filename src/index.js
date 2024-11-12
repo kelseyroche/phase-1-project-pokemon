@@ -21,8 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <img src="${pokemon.imageUrl}" alt="${pokemon.name}" class="pokemon-image">
         <h3>${pokemon.name}</h3>
         <p>Type: ${pokemon.type}</p>
-        <p>Attack Move: ${pokemon.popularAttackMove}</p>
-        <p>Defense Move: ${pokemon.popularDefendingMove}</p>
+        <p>Ability: ${pokemon.ability}</p>
       `;
       pokemonContainer.appendChild(pokemonCard);
     }
@@ -34,8 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const newPokemon = {
         name: event.target.name.value,
         type: event.target.type.value,
-        popularAttackMove: event.target.attackMove.value,
-        popularDefendingMove: event.target.defendMove.value,
+        ability: event.target.attackMove.value,
         imageUrl: event.target.imageUrl.value
       };
   
