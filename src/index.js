@@ -1,33 +1,36 @@
-document.addEventListener("DOMContentLoaded", () => {
+
     //callbacks
-    const pokemonContainer = document.getElementById("pokemon-container");
-    const pokemonForm = document.getElementById("pokemon-form");
+    const pokemonURL= "http://localhost:3500/pokemon";
+    const pokemonContainer = document.getElementById('pokemon-container');
+    const pokemonForm = document.getElementById('pokemon-form');
   
     //fetch pokemon info
-    function loadPokemon() {
-      fetch("http://localhost:3500/pokemon")
-        .then(response => response.json())
-        .then(data => {
-          data.forEach(pokemon => renderPokemon(pokemon));
-        });
+    function getAllPokemon() {
+      return fetch(pokemonURL).then(response => {
+        return response.json()
+      })
+    }
+    const displayPokemons = () => {
+      getAllPokemon().then(pokemonArr =>{
+        pokemonArr.forEach(renderPokemon)
+        handleClick(pokemonArr[0])
+      })
+
     }
   
     //render the pokemon
     function renderPokemon(pokemon) {
-      const pokemonCard = document.createElement("div");
-      pokemonCard.className = "pokemon-card";
-      pokemonContainer.addEventListener('click' , () => handleClick(pokemon));
-      pokemonCard.innerHTML = `
-        <img src="${pokemon.imageUrl}" alt="${pokemon.name}" class="pokemon-image">
-        
-      `;
-      pokemonContainer.appendChild(pokemonCard);
-      
+      const pokemonImage = document.createElement('img');
+      pokemonImage.src= pokemon.image;
+      pokemonContainer.appendChild(pokemonImage);
+      pokemonImage.addEventListener('click', () => handleClick(pokemon))
     }
   //click event 
   function handleClick(pokemon){
-  
-
+  el('detail-image').src= pokemon.image
+  el('detail-name').textContent= pokemon.name
+  el('detail-type').textContent=pokemon.type
+  el('detail-ability').textContent=pokemon.ability
   }
   
     //form code
@@ -37,15 +40,20 @@ document.addEventListener("DOMContentLoaded", () => {
       const newPokemon = {
         name: event.target.name.value,
         type: event.target.type.value,
-        ability: event.target.attackMove.value,
-        imageUrl: event.target.imageUrl.value
+        ability: event.target.ability.value,
+        image: event.target.image.value
       };
   
       renderPokemon(newPokemon);
       event.target.reset();
     });
-
+    function el(id){
+      return document.getElementById(id);
+    }
   
-    loadPokemon();
-  });
+    const main= () => {
+      displayPokemons()
+    }
+  getAllPokemon()
   
+  main()
