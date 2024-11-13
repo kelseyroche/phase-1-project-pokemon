@@ -27,18 +27,25 @@
     }
 
   //click event 
-  function handleClick(pokemon){
-  el('detail-image').src= pokemon.image
-  el('detail-name').textContent= pokemon.name
-  el('detail-type').textContent=pokemon.type
-  el('detail-ability').textContent=pokemon.ability
-  }
+function handleClick(pokemon) {
+  const detailImage = el('detail-image');
+  
+  detailImage.src = pokemon.image;
+  el('detail-name').textContent = pokemon.name;
+  el('detail-type').textContent = pokemon.type;
+  el('detail-ability').textContent = pokemon.ability;
 
-  //mouseover event
+  // mouseover event to change to alternate image
   detailImage.addEventListener('mouseover', () => {
-    detailImage.src = pokemon.altImage;
-
+    detailImage.src = pokemon.altImage; 
   });
+
+  // mouseout event to revert to main image
+  detailImage.addEventListener('mouseout', () => {
+    detailImage.src = pokemon.image;
+  });
+}
+
   
     //form code
     pokemonForm.addEventListener("submit", event => {
