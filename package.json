@@ -1,0 +1,20 @@
+{
+  "name": "phase-1-project-pokemon",
+  "version": "1.0.0",
+  "description": "pokemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "server": "json-server -w -p 3500 db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelseyroche/phase-1-project-pokemon.git"
+  },
+  "author": "kelsey and nem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kelseyroche/phase-1-project-pokemon/issues"
+  },
+  "homepage": "https://github.com/kelseyroche/phase-1-project-pokemon#readme"
+}
