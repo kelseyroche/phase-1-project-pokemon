@@ -40,7 +40,7 @@ function handleClick(pokemon) {
     detailImage.src = pokemon.altImage; 
   });
 
-  // mouseout event to revert to main image
+  // mouseout event to go back to main image
   detailImage.addEventListener('mouseout', () => {
     detailImage.src = pokemon.image;
   });
@@ -56,6 +56,7 @@ function handleClick(pokemon) {
         type: event.target.type.value,
         ability: event.target.ability.value,
         image: event.target.image.value
+        altImage: event.target.altImage.value,
       };
   
       renderPokemon(newPokemon);

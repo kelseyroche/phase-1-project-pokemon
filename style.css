@@ -85,3 +85,8 @@
   font-size: 1em;
   cursor: pointer;
 }
+
+#detail-image {
+  height: 400px;
+  width: auto;
+}
