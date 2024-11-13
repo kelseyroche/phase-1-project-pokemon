@@ -42,16 +42,22 @@
 
 .pokemon-preview {
   max-height: 200px;
+  width: auto;
 }
+
 
 
   #pokemon-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    max-width: 300px;
+    max-width: 350px;
+    padding: 20px;
     margin: 0 auto;
     align-items: stretch;
+    background-color: #3d7dca;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
 
