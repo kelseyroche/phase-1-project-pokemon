@@ -52,7 +52,7 @@
         name: event.target.name.value,
         type: event.target.type.value,
         ability: event.target.ability.value,
-        image: event.target.image.value
+        image: event.target.image.value,
         altImage: event.target.altImage.value,
       };
   
