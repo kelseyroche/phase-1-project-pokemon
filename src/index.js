@@ -34,11 +34,11 @@
   el('detail-ability').textContent=pokemon.ability
   }
 
-  //mouseover event
-  detailImage.addEventListener('mouseover', () => {
-    detailImage.src = pokemon.altImage;
+  // //mouseover event
+  // detailImage.addEventListener('mouseover', () => {
+  //   detailImage.src = pokemon.altImage;
 
-  });
+  // });
   
     //form code
     pokemonForm.addEventListener("submit", event => {
