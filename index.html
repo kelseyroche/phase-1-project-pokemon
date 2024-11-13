@@ -19,10 +19,11 @@
   </main>
 
   <div id="pokemon-detail">
-    <img class="detail-image" src="./assets/blank-pokedex.jpg" alt="Insert Name Here" />
-  </div>
-
-  <!-- form to add a new pokemon -->
+  <img class="detail-image" id= "detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
+  <h2 class="name" id="detail-name">Insert Name Here</h2>
+  <h3 class="type" id="detail-type">Insert Type Here</h3>
+  <h3 class="ability" id="detail-ability">Insert Ability Here</h3>
+</div>
   <section id="add-pokemon-section">
     <h2>Add a New Pokemon!</h2>
     <form id="pokemon-form">
@@ -32,13 +33,13 @@
       <label for="type">Type:</label>
       <input type="text" id="type" name="type" required>
       
-      <label for="attackMove">Ability:</label>
-      <input type="text" id="attackMove" name="attackMove" required>
+      <label for="ability">Ability:</label>
+      <input type="text" id="ability" name="ability" required>
       
-      <label for="imageUrl">Image URL:</label>
-      <input type="url" id="imageUrl" name="imageUrl" required>
+      <label for="image">Image:</label>
+      <input type="text" id="image" name="image" required>
       
-      <button type="submit">Gotta catch 'em all!</button>
+      <button type="submit">Gotta Catch 'Em All!</button>
     </form>
   </section>
 
