@@ -22,6 +22,7 @@
     function renderPokemon(pokemon) {
       const pokemonImage = document.createElement('img');
       pokemonImage.src= pokemon.image;
+      pokemonImage.classList.add('pokemon-preview');
       pokemonContainer.appendChild(pokemonImage);
       pokemonImage.addEventListener('click', () => handleClick(pokemon))
     }
