@@ -6,7 +6,7 @@
         "type": "Electric",
         "ability": "Static",
         "image": "./assets/pokemon/pikachu.png",
-        "altImage": "./assets/pokemon/pikachu2.png"
+        "altImage": "./assets/pokemon/raichu.png"
       },
       {
         "id": 2,
@@ -14,7 +14,7 @@
         "type": "Fire/Flying",
         "ability": "Blaze",
         "image": "./assets/pokemon/charizard.png",
-        "altImage": "./assets/pokemon/charizard2.png"
+        "altImage": "./assets/pokemon/charizard-megax.png"
       },
       {
         "id": 3,
@@ -22,7 +22,7 @@
         "type": "Grass/Poison",
         "ability": "Overgrow",
         "image": "./assets/pokemon/bulbasaur.png",
-        "altImage": "./assets/pokemon/bulbasaur2.png"
+        "altImage": "./assets/pokemon/ivysaur.png"
       },
       {
         "id": 4,
@@ -30,7 +30,7 @@
         "type": "Water",
         "ability": "Torrent",
         "image": "./assets/pokemon/squirtle.png",
-        "altImage": "./assets/pokemon/squirtle2.png"
+        "altImage": "./assets/pokemon/wartortle.png"
       },
       {
         "id": 5,
@@ -38,7 +38,7 @@
         "type": "Fairy",
         "ability": "Cute Charm",
         "image": "./assets/pokemon/jigglypuff.png",
-        "altImage": "./assets/pokemon/jigglypuff2.png"
+        "altImage": "./assets/pokemon/wigglytuff.png"
       }
      
     ]
