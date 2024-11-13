@@ -25,6 +25,7 @@
       pokemonContainer.appendChild(pokemonImage);
       pokemonImage.addEventListener('click', () => handleClick(pokemon))
     }
+
   //click event 
   function handleClick(pokemon){
   el('detail-image').src= pokemon.image
@@ -32,6 +33,12 @@
   el('detail-type').textContent=pokemon.type
   el('detail-ability').textContent=pokemon.ability
   }
+
+  //mouseover event
+  detailImage.addEventListener('mouseover', () => {
+    detailImage.src = pokemon.altImage;
+
+  });
   
     //form code
     pokemonForm.addEventListener("submit", event => {
