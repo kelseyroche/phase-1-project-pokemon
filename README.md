@@ -8,4 +8,4 @@ User Stories:
     4. I want to be able to add new pokemon to my collection.
     5. Gotta catch 'em all!
 
-    
+    ![alt text](assets/pokemon-collection-preview.png)
