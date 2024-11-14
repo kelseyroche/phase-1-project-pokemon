@@ -35,7 +35,7 @@
       {
         "id": 5,
         "name": "Jigglypuff",
-        "type": "Fairy",
+        "type": "Normal/Fairy",
         "ability": "Cute Charm",
         "image": "./assets/pokemon/jigglypuff.png",
         "altImage": "./assets/pokemon/wigglytuff.png"
